@@ -2,7 +2,7 @@
   import Error from "./Error.svelte";
   import Spinner from "./Spinner.svelte";
   async function getData() {
-    const response = await fetch("https://0nzwp.sse.codesandbox.io/");
+    const response = await fetch("http://localhost:4545");
     const data = await response.json();
     return data;
   }
